@@ -98,7 +98,6 @@ body {
 .main-footer{
     display: flex;
     margin-bottom: 35px;
-    max-width: 700px;
     flex-direction: column;
     padding-left: 150px;
     padding-right: 150px;
@@ -108,6 +107,16 @@ body {
     font-style: italic;
     color: #1F2937;
 }
+
+.footer{
+    display: flex;
+   justify-content: center;
+   background-color: #1F2937;
+   color: #E5E7EB;
+   height: 100px;
+   align-items: center;
+}
+
 
 
 
