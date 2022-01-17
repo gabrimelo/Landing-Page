@@ -13,15 +13,16 @@ body {
 
 
 .header-logo {
-    width    : 170px;
+    width    : 250px;
     color    : #F9FAF8;
     font-size: 24px;
+    padding-left: 150px;
 }
 
 .header-links {
     display        : flex;
     gap            : 30px;
-    padding        : 30px;
+    padding        : 10px;
     justify-content: flex-end;
     width          : 100%;
     color          : #E5E7EB;
@@ -33,28 +34,33 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding-left: 150px;
 }
 
 
 .maint-title-button {  
-    width : 50px;
-    height: 150px;
+    width : 150px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 .hero-main-text {
     font-size  : 48px;
     font-weight: bolder;
-    color      : #F9FAF8;
-    background-color: red;    
+    color      : #F9FAF8; 
+    width: 350px; 
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color    : #E5E7EB;
+    align-self: flex-start;
+    width: 450px;
 }
 
 .img-header{
-    display: flex;
     height: 250px;
     width: 250px;
+    align-self: flex-end;
 }
+
