@@ -32,9 +32,18 @@ body {
 .main-title {
     padding         : 30px;
     background-color: #1F2937;
+    padding-left    : 150px;
     display         : flex;
     flex-direction  : column;
-    padding-left    : 150px;
+}
+
+
+
+.hero-main-text {
+    font-size  : 48px;
+    font-weight: bolder;
+    color      : #F9FAF8;
+    max-width  : 350px;
 }
 
 
@@ -44,12 +53,6 @@ body {
     margin-top: 10px;
 }
 
-.hero-main-text {
-    font-size  : 48px;
-    font-weight: bolder;
-    color      : #F9FAF8;
-    max-width  : 350px;
-}
 
 .hero-secondary-text {
     font-size : 18px;
@@ -59,9 +62,8 @@ body {
 }
 
 .img-header {
-    height    : 250px;
-    width     : 250px;
-    align-self: flex-end;
+    height: 250px;
+    width : 250px;
 }
 
 .content {
@@ -74,9 +76,9 @@ body {
 .content-header-text {
     color      : #1F2937;
     font-size  : 50px;
-    font-size: 36px;
+    font-size  : 36px;
     font-weight: bolder;
-    margin-top: 35px;
+    margin-top : 35px;
 }
 
 .cards {
@@ -86,8 +88,8 @@ body {
     justify-content: space-evenly;
     padding-left   : 150px;
     padding-right  : 150px;
-    margin-top: 35px;
-    margin-bottom: 200px;
+    margin-top     : 35px;
+    margin-bottom  : 200px;
 }
 
 .card1img {
@@ -95,29 +97,39 @@ body {
     max-height: 200px;
 }
 
-.main-footer{
-    display: flex;
-    margin-bottom: 35px;
-    flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
-    align-items: flex-end;
+.main-footer {
+    display         : flex;
+    margin-bottom   : 35px;
+    flex-direction  : column;
+    padding-left    : 150px;
+    padding-right   : 150px;
+    align-items     : flex-end;
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+    font-size       : 36px;
+    font-style      : italic;
+    color           : #1F2937;
 }
 
-.footer{
-    display: flex;
-   justify-content: center;
-   background-color: #1F2937;
-   color: #E5E7EB;
-   height: 100px;
-   align-items: center;
+.footer {
+    display         : flex;
+    justify-content : center;
+    background-color: #1F2937;
+    color           : #E5E7EB;
+    height          : 100px;
+    align-items     : center;
 }
 
 
+.end-main-footer{
+background-color: #3882F6;
+display: flex;
+flex-direction: column;
+padding: 50px;
+margin: 45px;
+border-radius: 15px;
+color: #E5E7EB;
+}
 
-
-
+.call-to-action{
+    font-weight: bold;
+}
